@@ -1,0 +1,24 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "MY ALL SOCIAL MEDIA WEB APPLICATION",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "narendar",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.4.5",
+    "passport-local": "^1.0.0"
+  }
+}
